@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+
+
+    /* margin: auto; */
+    /* box-sizing: border-box; */
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+}
+body{
+    background-color: whitesmoke;
+}
+.navbar{
+    background-color: whitesmoke;
+    /* width: 26%; */
+    margin-bottom: 5px;
+    margin-top: 15px;
+
+}
+.navbar-items{
+
+    display: flex;
+    /* padding-right: 47px; */
+    /* margin-bottom: 0.6%; */
+    font-size: 12pt;
+    font-family: 'Segoe UI';
+    list-style: none;
+    color: black;
+    justify-content: center;
+    margin: auto;
+    /* justify-content: space-between; */
+}
+.navbar-items li a{
+    text-decoration: none;
+    color:black;
+    /* padding-top: 12px; */
+    /* margin-bottom: 0.6%; */
+    border-bottom:3px;
+
+}
+
+.navbar-items:hover{
+    margin-bottom: 1%;}
+.navbar-items li:hover{
+    /* color: white; */
+    /* text-decoration: underline; */
+    border-bottom: 3px solid black;
+    /* margin-bottom: 0.5%; */
+    /* background-color: white; */
+    -webkit-animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.productbox{
+    display: flex;
+    margin-top: 2%;
+    background-color: rgb(185, 200, 206);
+    font-size: 24pt;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 600;
+    padding-top: 3%;
+    padding-left: 2%;
+}
+.but{
+    background-color: lightseagreen;
+    border: 0;
+    font-size: 13pt;
+    padding: 5px;
+    border-radius: 2mm;
+}
+.productjbox{
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 2%; */
+    /* background-color: rgb(185, 200, 206); */
+    font-size: 24pt;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 600;
+    padding-top: 3%;
+    /* padding-left: 2%; */
+}
+
+.bh{
+    padding-top: 1px;
+    padding-bottom: 10px;
+    font-size: 35pt;
+    text-decoration: underline;
+}
+.Product1{
+    background-color: lightblue;
+    padding-left: 18px;
+
+}
+.Product2{
+    background-color: lightcoral;
+    padding-left: 18px;
+
+}
+.Product3{
+    background-color: lightgoldenrodyellow;
+    padding-left: 18px;
+
+}
+.Product1but{
+    background-color: lightblue;
+    padding: 2px;
+    border: 0;
+    font-size: medium;
+    padding-left: 18px;
+}
+.Product2but{
+    background-color: lightcoral;
+    border: 0;
+    font-size: medium;
+    padding-left: 18px;
+}
+.Product3but{
+    background-color: lightgoldenrodyellow;
+    border: 0;
+    font-size: medium;
+    padding-left: 18px;
+}
+
+.image{
+    justify-items: flex-end;
+}
+.Comingsoon{
+    font-size: 30pt ;
+    font-weight: bold;
+    font-family: "Roboto Mono", monospace;
+}
+
+
